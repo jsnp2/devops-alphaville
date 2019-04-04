@@ -12,4 +12,5 @@ install:
 script:
   - pycodestyle src/*py --ignore=E501
   - pytest
+  - pytest-cov
   

@@ -11,3 +11,5 @@ install:
   - pip install -r requirements_dev.txt
 script:
   - pycodestyle src/*py --ignore=E501
+  - pytest
+  
